@@ -207,6 +207,64 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &449808886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 449808888}
+  - component: {fileID: 449808887}
+  m_Layer: 0
+  m_Name: Fruits
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &449808887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449808886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56ca8f456d5903d4ab85d77edb8ee214, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FruitsPrefabs:
+  - {fileID: 2589701512525726475, guid: 0176a34081c2dd847a57cd4581e5d6dd, type: 3}
+  - {fileID: 7907110499478814119, guid: 08aa077220c127841b278572f1e1dae0, type: 3}
+  - {fileID: 3949669398851909272, guid: 115fcc6b34f0c4746a5dbabac43e274f, type: 3}
+  - {fileID: 3002994700007924305, guid: 4abc2c6ec2bf2eb49a756a197790d378, type: 3}
+  - {fileID: 7005433386999532300, guid: 4ab4cfb37040df143a4d829732d38d05, type: 3}
+  - {fileID: 8039100315425718692, guid: d57ba045a466ca74486ab8c6b35b3890, type: 3}
+  - {fileID: 2099388134324156000, guid: d64844ffbd4aed34c8afe22e0bed5595, type: 3}
+  - {fileID: 130621776627243985, guid: 50ccb571146e91649b4f71f813795d1b, type: 3}
+  - {fileID: 7467061383797222521, guid: 5adfb07b3fc5ea640894061106360af7, type: 3}
+  - {fileID: 5458056495682606270, guid: b3a5fe08348ecc944a0758fc1fd07985, type: 3}
+  SecondSpawn: 0.5
+  MinTras: -5
+  MaxTras: 5
+--- !u!4 &449808888
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449808886}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.27, y: 5.96, z: -0.15171711}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1512265483
 GameObject:
   m_ObjectHideFlags: 0
